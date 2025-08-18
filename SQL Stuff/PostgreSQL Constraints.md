@@ -1,5 +1,6 @@
 ### Not Null Constraints
-* Sometimes we want to reinforce that a column must have a value, this can be done with the `NOT NULL` constraint
+
+* Sometimes we create [[SQL Tables]] we want to reinforce that a column must have a value, this can be done with the `NOT NULL` constraint
 ```postgresql
 CREATE TABLE users (
     name TEXT NOT NULL,
