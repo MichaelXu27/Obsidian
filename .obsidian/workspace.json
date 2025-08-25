@@ -8,31 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0e1e26b10f351c6a",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "3a07bb018be54c20",
+            "id": "c6f4b2fd0a3aa19f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Leetcode stuff/Blind 75/Trees.md",
+                "file": "Analysis of algorithms/Greedy Algorithms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trees"
+              "title": "Greedy Algorithms"
+            }
+          },
+          {
+            "id": "fe5138610b88ab14",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "Untitled 2.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "Untitled 2"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6addf4146343cb30",
@@ -177,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,39 +192,51 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e9385a22803827db",
+  "active": "c6f4b2fd0a3aa19f",
   "lastOpenFiles": [
-    "Leetcode stuff/Blind 75",
-    "Leetcode stuff/DSA",
-    "Untitled.base",
-    "Leetcode stuff/Blind 75/Trees.md",
-    "Leetcode stuff",
-    "Untitled 1.base",
+    "Machine Learning/Introduction to Machine Learning first day.md",
+    "Analysis of algorithms/Greedy Algorithms.md",
+    "Untitled 2.base",
+    "Excalidraw/Drawing 2025-08-25 10.17.07.excalidraw.md",
     "SQL Stuff/Data Types.md",
-    "SQL Stuff/Data Type Folder/UUID.md",
-    "SQL Stuff/Data Type Folder/Strings.md",
-    "SQL Stuff/Data Type Folder/Numbers.md",
-    "SQL Stuff/Data Type Folder/Enum.md",
-    "SQL Stuff/Data Type Folder/Dates.md",
-    "SQL Stuff/Data Type Folder/Booleans.md",
+    "Analysis of algorithms",
+    "Machine Learning/images/Pasted image 20250825102145.png",
+    "Machine Learning/images",
+    "Machine Learning/images/Pasted image 20250825102843.png",
+    "Machine Learning/images/Pasted image 20250825102409.png",
+    "Machine Learning/images/Pasted image 20250825102402.png",
+    "Machine Learning/Drawing 2025-08-25 10.17.26.excalidraw.md",
+    "Excalidraw",
     "SQL Stuff/Data Type Folder/Auto Increment.md",
+    "Leetcode stuff/Blind 75/Trees.md",
+    "Leetcode stuff/Blind 75",
+    "Leetcode stuff",
+    "Machine Learning/Introduction to Machine Learning.md",
+    "Machine Learning",
+    "SQL Stuff/Data Type Folder/Dates.md",
+    "SQL Stuff/Data Type Folder/Enum.md",
+    "SQL Stuff/Data Type Folder/Numbers.md",
+    "SQL Stuff/Data Type Folder/Strings.md",
+    "SQL Stuff/Data Type Folder/UUID.md",
+    "SQL Stuff/Data Type Folder/Untitled",
     "SQL Stuff/Data Type Folder/Arrays.md",
+    "SQL Stuff/PostgreSQL Constraints.md",
+    "SQL Stuff/SQL Tables.md",
+    "SQL Stuff/Data Type Folder/Booleans.md",
     "SQL Stuff/Data Type Folder",
+    "SQL Stuff/Untitled.canvas",
+    "Untitled 1.base",
     "Python OOP/Polymorphism.md",
+    "Python OOP/Abstraction.md",
     "Python OOP/Inheritance.md",
+    "Python OOP/Class Attributes.md",
     "Python OOP/Encapsulation.md",
     "Python OOP/Classes and Objects.md",
-    "Python OOP/Class Attributes.md",
-    "Python OOP/Abstraction.md",
-    "Python OOP",
-    "MML Book",
-    "SQL Stuff/SQL Tables.md",
-    "SQL Stuff/PostgreSQL Constraints.md",
     "Untitled.md",
-    "2025-08-17.md",
-    "SQL Stuff"
+    "2025-08-17.md"
   ]
 }
