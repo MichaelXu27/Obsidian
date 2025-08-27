@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4106/data science for complex networks.md",
+                "file": "4205/Functional Static 1a (S&Q Prep).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "data science for complex networks"
+              "title": "Functional Static 1a (S&Q Prep)"
             }
           }
         ]
@@ -185,8 +185,12 @@
   },
   "active": "fe5138610b88ab14",
   "lastOpenFiles": [
-    "Programming Systems and languages/00.md",
+    "4205/Note Selector.md",
+    "4205/Functional Static 1a (S&Q Prep).md",
     "4106/data science for complex networks.md",
+    "4205",
+    "4205.md",
+    "Programming Systems and languages/00.md",
     "4106",
     "images/Pasted image 20250826133745.png",
     "Analysis of algorithms/Greedy Algorithms.md",
@@ -209,7 +213,6 @@
     "Excalidraw",
     "SQL Stuff/Data Type Folder/Auto Increment.md",
     "Leetcode stuff/Blind 75/Trees.md",
-    "Leetcode stuff/Blind 75",
     "Machine Learning/Introduction to Machine Learning.md",
     "SQL Stuff/Data Type Folder/Dates.md",
     "SQL Stuff/Data Type Folder/Enum.md",
@@ -223,9 +226,6 @@
     "SQL Stuff/Untitled.canvas",
     "Python OOP/Polymorphism.md",
     "Python OOP/Abstraction.md",
-    "Python OOP/Inheritance.md",
-    "Python OOP/Class Attributes.md",
-    "Python OOP/Encapsulation.md",
-    "Python OOP/Classes and Objects.md"
+    "Python OOP/Inheritance.md"
   ]
 }
