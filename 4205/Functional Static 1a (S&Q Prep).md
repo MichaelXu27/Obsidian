@@ -22,7 +22,7 @@ Every exception has
 	1. produces a type or fails
 	2. types so far: int bool unit
 3. evaluation rules
-	1. produces a value (or excpetion or infinite loop)
+	1. produces a value (or exception or infinite loop)
 
 ### Variables
 Syntax: sequence of letters, digits, _ , not starting with digit
@@ -157,3 +157,7 @@ fun silly2 () =
 * functions are bindings
 * therefore you can just wrap a function in a let in end statement and then you have some sort of a 'helper function'
 ## Let efficiency
+![[Pasted image 20250827151907.png]]
+
+![[Pasted image 20250827151938.png]]
+
