@@ -131,3 +131,147 @@ mov rax, 60
 syscall
 ```
 [[Debugging Refresher]]
+
+# Computer Memory
+## Loading from memory
+- to access the memory contents at memory of address 31337 you can do 
+- `mov rdi, [31337]
+- when executed normally, the cpu understands 31337 as an address, not a raw value
+```
+.global _start
+
+_start:
+mov rdi, [133700]
+mov rax, 60
+syscall
+```
+## Dereferencing Pointers
+- Typically memory address are stored in pointers
+- an example of dereferencing the pointer is if an address 133700 has the contents 42. then we do
+- `mov rax, 133700`
+- mov rdi, [rax]
+```
+.global _start
+
+_start:
+mov rdi, [rax]
+mov rax, 60
+syscall
+```
+## Dereferencing yourself
+```assembly
+mov [133700], 42
+mov rax, 133700  # after this, rax will be 133700
+mov rax, [rax]   # after this, rax will be 42
+```
+- Solution
+```
+.global _start
+
+_start:
+mov rdi, [rdi]
+mov rax, 60
+syscall
+```
+
+## Dereferencing with offsets
+![[Pasted image 20250909103955.png]]
+
+- If i want the second number of the sequence I would do `mov rax, [rdi + 1]`
+- we call each of these slots bytes
+- If we want to get something at offset 8
+```
+.global _start
+
+_start:
+mov rdi, [rdi + 8]
+mov rax, 60
+syscall
+```
+## Stored addresses
+```assembly
+mov rdi, 123400    # after this, rdi becomes 123400
+mov rdi, [rdi]     # after this, rdi becomes the value stored at 123400 (which is 133700)
+mov rax, [rdi]     # here we dereference rdi, reading 42 into rax!
+```
+- solution
+```
+.global _start
+
+_start:
+mov rdi, [567800]
+mov rdi, [rdi]
+mov rax, 60
+syscall
+```
+## Double dereference
+- solution
+```
+.global _start
+
+_start:
+mov rdi, [rax]
+mov rdi, [rdi]
+mov rax, 60
+syscall
+```
+## Triple Dereference
+- solution
+```
+.global _start
+
+_start:
+mov rdi, [rdi]
+mov rdi, [rdi]
+mov rdi, [rdi]
+mov rax, 60
+syscall
+```
+
+
+# Assembly Crash Course
+## Building programs:
+- Assembly to binary, program should start with
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+mov rdi, 42
+mov rax, 60
+syscall
+```
+- run program like any other `./program_name`
+- check return code with `echo $?`
+- disassembly of program
+	- `/objdump -M intel -d quitter`
+## set-register
+- File written like this
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+        mov rdi, 0x1337
+        mov rax, 60
+        syscall
+```
+- make sure to have the .intel_syntax noprefix in order to not use at&T syntax
+- and then compile with `gcc -c -o /tmp/solve.o /tmp/solve.s`
+## Set multiple registers
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+        mov rax, 0x1337
+        mov r12, 0xCAFED00D1337BEEF
+        mov rsp, 0x31337
+
+```
+## Add-to-register
+- When we say `A+=B` we are really saying `A = A + B`
+- add to add
+- sub to substract
+- imul to multiply
+- 

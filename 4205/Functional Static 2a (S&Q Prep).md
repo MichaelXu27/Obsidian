@@ -17,3 +17,29 @@
 ## Records
 - ![[Pasted image 20250903231900.png]]
 ## Tuples as syntactic sugar
+-  tuples are nothing more than records with specific field names
+- they are syntactic sugar for records with fields names 1,2, ... n
+- Syntactic: can describe the semantics entirely by the corresponding record syntax
+## Datatype bindings
+- ![[Pasted image 20250907105430.png]]
+-  ![[Pasted image 20250907105558.png]]
+- ![[Pasted image 20250907105716.png]]
+- ![[Pasted image 20250907105726.png]]
+## Case Expressions
+- ![[Pasted image 20250907105854.png]]
+- ![[Pasted image 20250907105917.png]]
+- ![[Pasted image 20250907111218.png]]
+- ![[Pasted image 20250907111254.png]]
+## useful datatypes
+- ![[Pasted image 20250907135114.png]]
+- ![[Pasted image 20250907135221.png]]
+- ![[Pasted image 20250907135310.png]]
+- ![[Pasted image 20250907135331.png]]
+- ![[Pasted image 20250907135502.png]]
+## Precise pattern matching so far
+- ![[Pasted image 20250907140119.png]]
+- ![[Pasted image 20250907140130.png]]
+## Type Synonyms
+- ![[Pasted image 20250907140304.png]]
+- ![[Pasted image 20250907140356.png]]
+- 
