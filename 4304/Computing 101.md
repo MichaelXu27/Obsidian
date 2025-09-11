@@ -274,4 +274,72 @@ _start:
 - add to add
 - sub to substract
 - imul to multiply
-- 
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+        add rdi, 0x331337
+        mov rax, 60
+        syscall
+```
+## Linear equation registers
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+        imul rdi, rsi
+        add rdi, rdx
+        mov rax, rdi
+
+```
+- make sure to know the difference between imul and mul
+## Integer-division
+- `div` is a special instruction that can divide a 128 bit dividend by a 64 bit divisor while storing both the quotient and the remainder.
+- `div reg` the following happens:
+	- `rax = rdx:rax /reg` (rdx:rax means rdx has upper 64 bits and rax has lower 64 bits)
+	- `rdx = remainder`
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+        mov rax, rdi
+        xor edx, edx
+        div rsi
+
+```
+## Modulo:
+- simply the remainder of the division operation, that value is already stored
+## Set-upper-byte
+![[Pasted image 20250910162236.png]]
+```
+.intel_syntax noprefix
+.global _start
+
+_start:
+        mov ah, 0x42
+```
+## Efficient-modulo
+Got it ✅ This level is about using the **bit-trick** for modulo when the divisor is a power of 2:
+
+- `x % 256` → keep only the **lowest 8 bits** of `x`.
+    
+- `x % 65536` → keep only the **lowest 16 bits** of `x`.
+    
+
+In x86-64, you can directly move those “low parts” of a register:
+
+- `%rdi` → `%dil` (low 8 bits of `rdi`).
+    
+- `%rsi` → `%si` (low 16 bits of `rsi`).
+    
+
+---
+
+### Intel syntax solution
+
+`.intel_syntax noprefix .globl _start _start:     mov al, dil     ; rax = rdi % 256  (mov into low 8 bits of rax)     mov bx, si      ; rbx = rsi % 65536 (mov into low 16 bits of rbx)     hlt`
+
+## Byte Extraction
