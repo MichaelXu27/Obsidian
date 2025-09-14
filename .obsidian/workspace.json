@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4304/Debugging Refresher.md",
+                "file": "4205/Functional Static 3a.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Debugging Refresher"
+              "title": "Functional Static 3a"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "6addf4146343cb30",
@@ -184,19 +185,22 @@
   },
   "active": "0a5ccce6bbbeadbb",
   "lastOpenFiles": [
+    "Pasted image 20250914121416.png",
+    "Pasted image 20250914121409.png",
+    "Pasted image 20250914120900.png",
+    "Pasted image 20250914120802.png",
+    "Pasted image 20250914120743.png",
+    "Pasted image 20250914120537.png",
+    "Pasted image 20250914120236.png",
+    "Pasted image 20250914115826.png",
+    "Pasted image 20250914115814.png",
+    "Pasted image 20250914115709.png",
+    "Pasted image 20250914115652.png",
+    "4304/Debugging Refresher.md",
+    "4205/Functional Static 3a.md",
     "4304/Computing 101.md",
     "4304/Lecture 9.4.25.md",
     "4205/Functional Static 2c.md",
-    "Pasted image 20250910182434.png",
-    "Pasted image 20250910182305.png",
-    "Pasted image 20250910182251.png",
-    "Pasted image 20250910181907.png",
-    "Pasted image 20250910181749.png",
-    "Pasted image 20250910181716.png",
-    "Pasted image 20250910181616.png",
-    "Pasted image 20250910181418.png",
-    "Pasted image 20250910181246.png",
-    "Pasted image 20250910180028.png",
     "4205/Functional Static 2a (S&Q Prep).md",
     "4205/Functional Static 2b.md",
     "4205/Functional Static 1b.md",
@@ -206,7 +210,6 @@
     "3407/Greedy Algorithms.md",
     "4304/1Notes Selector.md",
     "4304/Computer Memory.md",
-    "4304/Debugging Refresher.md",
     "git stuff.md",
     "4304/Homework.md",
     "plugins needed.md",
@@ -228,7 +231,6 @@
     "3407",
     "images",
     "Machine Learning/Drawing 2025-08-25 10.17.26.excalidraw.md",
-    "SQL Stuff/Data Type Folder/Auto Increment.md",
     "SQL Stuff/Untitled.canvas"
   ]
 }
