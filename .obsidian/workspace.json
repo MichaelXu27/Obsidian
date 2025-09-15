@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "6addf4146343cb30",
@@ -185,6 +184,10 @@
   },
   "active": "0a5ccce6bbbeadbb",
   "lastOpenFiles": [
+    "4205/Functional Static 2b.md",
+    "4205/Functional Static 1a (S&Q Prep).md",
+    "4205/Functional Static 3a.md",
+    "4205/Functional Static 2c.md",
     "Pasted image 20250914121416.png",
     "Pasted image 20250914121409.png",
     "Pasted image 20250914120900.png",
@@ -195,16 +198,11 @@
     "Pasted image 20250914115826.png",
     "Pasted image 20250914115814.png",
     "Pasted image 20250914115709.png",
-    "Pasted image 20250914115652.png",
     "4304/Debugging Refresher.md",
-    "4205/Functional Static 3a.md",
     "4304/Computing 101.md",
     "4304/Lecture 9.4.25.md",
-    "4205/Functional Static 2c.md",
     "4205/Functional Static 2a (S&Q Prep).md",
-    "4205/Functional Static 2b.md",
     "4205/Functional Static 1b.md",
-    "4205/Functional Static 1a (S&Q Prep).md",
     "4205/1Note Selector.md",
     "4106/data science for complex networks.md",
     "3407/Greedy Algorithms.md",
